@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
+
+import sklearn
+from sklearn.neighbors import KNeighborsClassifier
 # import KNneighbor_model
 import rank_point_python
 import joblib
-import sklearn
-from sklearn.neighbors import KNeighborsClassifier
 
 st.title(':soccer:축구 승부 예측:soccer:')
 team_info = rank_point_python.team_info
