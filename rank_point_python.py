@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
-df=pd.read_csv('C:/Users/pc/Desktop/project_streamlit/international_matches.csv', encoding='utf-8')
+df=pd.read_csv('international_matches.csv', encoding='utf-8')
 
 df.drop(['home_team_goalkeeper_score'], axis=1, inplace=True)
 df.drop(['away_team_goalkeeper_score'], axis=1, inplace=True)
